@@ -1,0 +1,245 @@
+
+html, body{
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+
+}
+
+.mr-auto{
+  font-size: 15px;
+}
+
+
+.menu{
+  color:white;
+}
+
+h2{
+  font-size: 30px;
+}
+
+.navbar-dark{
+    border-bottom: 1px solid  #ffd11a;
+    height: 58px;
+}
+
+
+p {
+  font-size: 18px;
+}
+
+
+
+.navbar-dark .nav-item:hover{
+    color: maroon;
+    background: rgba(115, 115, 111, 0.8); /* add background-color to active links */
+    border-radius: 5px;
+    display:block;
+}
+
+.nav-item {
+  background: #116980;
+  text-align: center;
+
+}
+
+body {
+  background-color: #EDEDED;
+  height:auto;
+}
+
+.navbar-toggler:focus, .navbar-toggler:active {
+  outline: none;
+  box-shadow: none;
+}
+
+.navbar-toggler:hover{
+
+  box-shadow: 0px 1px 20px 5px rgba(39,205,205,0.8);
+}
+
+.navbar-toggler{
+
+  background-color: transparent;
+  padding: auto;
+  margin-right:;
+}
+
+.navbar-dark .navbar-toggler-icon{
+
+  background-image: url("../img/hamburgermenu.png");
+  width: 35px;
+  height: 35px;
+  vertical-align: middle;
+}
+
+.navbar-collapse{
+
+  text-align: center;
+}
+.menu{
+  color: white;
+}
+
+.mathcauses{
+  box-shadow: 1px 1px 1px 1px #68747D;
+  background: #EDEDED;
+  border: 2px solid maroon;
+  border-radius: 15px;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 3px;
+}
+
+.mathcauses:hover{
+  background: rgba(113, 154,115, 0.5);
+}
+
+p1{
+  font-size: 15.5px;
+}
+
+
+h1{
+  text-align: center;
+}
+
+h4{
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  height: auto;
+  padding: 3px;
+  width:auto;
+  background: #116980;
+  border: 2px solid maroon;
+  border-radius: 15px;
+}
+h5{
+  text-align: center;
+}
+
+.nav-link{
+  color: white;
+  font-size: 17px;
+}
+
+
+p {
+  font-size: 18px;
+}
+.dropdown-item:hover{
+    background-color: #ccffff;
+}
+
+.ball {
+	display: block;
+  border: 1px black;
+	width: 80px;
+	height: 80px;
+	margin: 20px auto 0;
+	border-radius: 50%;
+  font-size: 15px;
+}
+.b2 {
+  background: radial-gradient(circle at 65% 15%, white 1px, aqua 3%, black 60%, aqua 100%);
+}
+
+.b3 {
+  background: radial-gradient(circle at 65% 15%, white 1px, aqua 3%, darkblue 60%, aqua 100%);
+}
+
+.b4 {
+  background: radial-gradient(circle at 65% 15%, white 0px, red 3%, maroon 40%, red 100%);
+}
+
+.b5 {
+  background: radial-gradient(circle at 65% 15%, white 0px,#DE84FB 3%, #510769 40%, #C72EF8 100%);
+}
+.b6 {
+  background: radial-gradient(circle at 65% 15%, white 0px,#DD84FA 10%, #710419 50%, #C72ED8 100%);
+}
+
+.b7 {
+  background: radial-gradient(circle at 75% 15%, #F6FA71 0px,#D8E473 3%, #5F8A7C 40%, #41747E 100%);
+}
+.b8 {
+  background: radial-gradient(circle at 65% 15%, orange 0px,red 20%, orange 50%, #3C0109 90%);
+}
+.b9 {
+  background: radial-gradient(circle at 65% 15%, white 1px,limegreen 3%, green 40%, darkgreen 100%);
+}
+.b10 {
+  background: radial-gradient(circle at 65% 15%, white 0px,	#E37611 17%, 	#A75F0D 40%, #8F2D09 100%);
+}
+.b11 {
+  background: radial-gradient(circle at 65% 25%, white 1px,#78BFD1 3%, #347A8C 40%, #03333F 100%);
+}
+.b12 {
+  background: radial-gradient(circle at 65% 15%, white 1px,yellow 3%, red 50%, purple 100%);
+}
+.b13 {
+  background: radial-gradient(circle at 65% 15%, orange 1px,yellow 7%, red 80%, #cf000f 100%);
+}
+
+.ball a{
+    color:white;
+    font-size: 18px;
+    font-style: bold;
+}
+.ball:hover{
+  box-shadow: 0 0 25px 5px rgba(217, 220, 236, 0.9);
+}
+
+.ball0{
+  display: block;
+  border: 0.01px solid black;
+  width: 180px;
+  height: 180px;
+  margin: 50px auto 0;
+  border-radius: 50%;
+  margin-top: 150px;
+  animation-name: rotate;
+  animation-duration: 100s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  background-position: center 0px;
+}
+
+@keyframes rotate {
+  from { background-position-x: 0px; }
+  to { background-position-x: 10000px; }
+}
+
+
+.b0{
+    background: radial-gradient(circle at 50% 1%, darkgrey 0px, #3b9cf7 20%, #93e1f5 70%, #e1fbfc 100%);
+}
+
+.ball0:hover{
+  box-shadow: 0 0 18px 3px rgba(217, 220, 236, 0.9);
+}
+.ball0 a {
+    color:white;
+    font-size: 18px;
+    font-style: bold;
+}
+
+.hompagecover{
+  width: 63px;
+  height: 50px;
+  margin-left: 10px;
+}
+
+.navbar-toggler{
+  margin-right:10px;
+}
+
+.navbar-nav > li{
+  padding-right:20px;
+  padding-left: 20px;
+}
